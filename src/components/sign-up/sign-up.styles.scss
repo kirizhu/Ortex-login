@@ -1,0 +1,13 @@
+.sign-in {
+  margin: 0 auto;
+  max-width: 400px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 10px;
+  background: white;
+
+  .label {
+    text-align: left;
+    margin-left: 5px;
+  }
+}
