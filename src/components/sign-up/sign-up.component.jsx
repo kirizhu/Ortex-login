@@ -13,7 +13,8 @@ const SignUp = () => {
   const { email, password, confirmPassword } = userCredentials;
 
   const handleSubmit = async (event) => {
-    event.preventDefault();
+    //event.preventDefault();
+    console.log(event);
   };
 
   const handleChange = (event) => {

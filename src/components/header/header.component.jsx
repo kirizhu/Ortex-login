@@ -18,6 +18,10 @@ const Header = () => {
     socket.send('{"topic": "subscribe", "to": "EURUSD:CUR"}');
   };
 
+  socket.onerror = function (e) {
+    console.log(e.data);
+  };
+
   return (
     <Navbar className='my-nav' bg='primary' variant='dark'>
       <Navbar.Brand href='#home'>Ortex</Navbar.Brand>
